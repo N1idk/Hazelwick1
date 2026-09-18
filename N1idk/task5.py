@@ -1,0 +1,5 @@
+physical_attribute = input("Enter a physical attribute: ")
+weird_texture = input("Enter a weird texture: ")
+strange_noise = input("Enter a strange noise: ")
+made_up_creature_name = input("Enter a made-up creature name: ")
+print(f"Behold! The {weird_texture}-{physical_attribute} {made_up_creature_name} makes a terrifying {strange_noise} as it shuffles closer!")
