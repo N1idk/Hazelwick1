@@ -1,2 +1,4 @@
-mins = int(input("Enter a number of minutes : "))
-# Not finished yet I dont know how to finish this
+min = int(input("Enter a number of minutes : "))
+hours = min // 60
+min = min % 60
+print(f"The time is {hours} and {min} minutes.")
