@@ -1,5 +1,5 @@
-number = int(input("Enter a number: "))
-if number % 2 == 0:
-    print(f"{number} is a even number.")
+age = int(input("Enter your age: "))
+if age > 12 <= 18:
+    print("You are a teenager.")
 else:
-    print(f"{number} is a odd number.")
+    print("You are not a teenager.")
